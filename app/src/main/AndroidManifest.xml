@@ -16,6 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".egg.Egg1Activity" />
+        <activity android:name=".study.TableLayoutActivity" />
+        <activity android:name=".study.ButtonActivity" />
+        <activity android:name=".study.StackViewActivity" />
+        <activity android:name=".study.AdapterViewFlipperActivity" />
+        <activity android:name=".study.ZoomButtonActivity" />
+        <activity android:name=".study.ToggleButtonActivity" />
+        <activity android:name=".study.SwitchActivity" />
+        <activity android:name=".study.ExpandableListViewActivity"></activity>
     </application>
 
 </manifest>

@@ -1,26 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <ScrollView
+    <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scrollbarThumbVertical="@mipmap/ic_launcher_round">
+        android:padding="15dp"
+        tools:context=".MainActivity">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <CheckedTextView android:checked="true"
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/table_layout"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="测试" />
+                android:text="TableLayout使用"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button系列"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/adapterViewFlipper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AdapterViewFlipper学习"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/stackView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="StackView学习"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/zoomButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ZoomButton简单了解"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/toggleButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ToggleButton简单了解"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Switch简单了解"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btn_expandableListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ExpandableListView简单了解"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/egg_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="彩蛋之来个霓虹灯"
+                android:textAllCaps="false" />
+
         </LinearLayout>
 
-    </ScrollView>
-
-</android.support.constraint.ConstraintLayout>
+    </android.support.v4.widget.NestedScrollView>
+</layout>

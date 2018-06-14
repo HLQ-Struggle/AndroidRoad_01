@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp">
+
+        <View
+            android:id="@+id/view_group"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            tools:background="#FF0" />
+
+        <TextView
+            android:id="@+id/tv_group_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:textColor="#000"
+            tools:text="河北省" />
+
+    </LinearLayout>
+</layout>

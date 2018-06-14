@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp"
+        tools:context=".study.SwitchActivity">
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:showText="true"
+            android:splitTrack="true"
+            android:switchMinWidth="100dp"
+            android:textOff=" "
+            android:textOn=" " />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:showText="true"
+            android:splitTrack="true"
+            android:switchMinWidth="100dp"
+            android:textOff="开"
+            android:textOn="关" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="渣渣贺，再来个高仿IOS效果的吧~~~" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:switchMinWidth="20dp"
+            android:textOff=" "
+            android:textOn=" "
+            android:thumb="@drawable/selector_thumb"
+            android:track="@drawable/selector_track" />
+
+    </LinearLayout>
+</layout>
